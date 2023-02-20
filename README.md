@@ -32,7 +32,7 @@ This repository contains programs written for the low-level programming and algo
 * [0x1C. C - Makefiles](./0x1C-makefiles)
 
 
-## Author :black_nib:
+## Author :black_pen:
 
 * **BlackDev** <[BlackDev001](https://github.com/BlackDev001)>
 
