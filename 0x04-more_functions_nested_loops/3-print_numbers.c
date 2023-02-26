@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * main - check the code
- * Return: Always 0
+ * print_numbers - a function that prints the numbers 0 to 9
+ *
+ * Return: 0-9 followed by newline
  */
 void print_numbers(void)
 {
@@ -10,7 +11,7 @@ void print_numbers(void)
 	i = 0;
 	while i < 10
 	{
-		_putchar("%d", i);
+		_putchar(i + '0');
 		i++;
 	}
 	_putchar('\n');
