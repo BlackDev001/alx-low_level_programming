@@ -1,12 +1,19 @@
 #include "main.h"
+
 /**
- * _puts - Function that prints a string followed by \n to stdout
- * @s: string to be printed
- *
- * Return: nothing
+ * _puts - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
-void _puts(char *s)
+
+void _puts(char *str)
 {
-	/* inputing string s for printing*/
-	_puts("%s");
+	int i = 0;
+
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 }
