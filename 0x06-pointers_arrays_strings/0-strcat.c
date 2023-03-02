@@ -5,10 +5,8 @@
 */
 char *_strcat(char *dest, char *src)
 {
-    char *dest;
-    char *src;
     dest = "Hello\n";
     src = "World!";
-    *dest = strcat(&dest, &src);
-    printf("%c", *dest);
+    *_strcat(dest, src);
+    return (dest);
 }
